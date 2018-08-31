@@ -1,0 +1,71 @@
+{
+	"name": "Test",
+	"description": "Test",
+	"type": "project",
+	"require": {
+		"php": ">= 7.1.3",
+		"nette/application": "^2.4",
+		"nette/bootstrap": "^2.4.2",
+		"nette/caching": "^2.5",
+		"nette/di": "^2.4",
+		"nette/finder": "^2.4",
+		"nette/forms": "^2.4",
+		"nette/http": "^2.4",
+		"nette/mail": "^2.4",
+		"nette/robot-loader": "^3.0",
+		"nette/security": "^2.4",
+		"nette/utils": "2.5.*",
+		"latte/latte": "^2.4",
+		"tracy/tracy": "^2.4",
+		"kdyby/strict-objects": "1.0.0",
+		"kdyby/monolog": "^1.3@dev",
+		"nextras/secured-links": "^1.4@dev",
+		"guzzlehttp/guzzle": "^6.3@dev",
+		"ocramius/package-versions": "^1.3",
+		"nettrine/orm": "dev-master",
+		"nettrine/dbal": "dev-master",
+		"contributte/console": "dev-master",
+		"doctrine/annotations": "~1.6.0",
+		"doctrine/cache": "1.7.*",
+		"symfony/console": "^4.0",
+		"doctrine/orm": "2.6.*",
+		"arachne/security": "^0.4.0@dev",
+		"ramsey/uuid": "3.8.*",
+		"ramsey/uuid-doctrine": "1.5.*",
+		"ublaboo/datagrid": "dev-bootstrap-4",
+		"moneyphp/money": "^3.0@dev",
+		"nettrine/extensions": "^0.4.0@dev",
+		"stekycz/cronner": "dev-master",
+		"contributte/recaptcha": "dev-master",
+		"coolin/html5uploader": "^0.11",
+		"webchemistry/images": "4.0.0",
+		"gmdotnet/composer-copy-file": "0.3.0"
+	},
+	"require-dev": {
+		"roave/security-advisories": "dev-master",
+		"nette/tester": "^2.0",
+		"phpstan/phpstan": "0.10.2",
+		"phpstan/phpstan-nette": "dev-master",
+		"phpstan/phpstan-doctrine": "dev-master",
+		"phpstan/phpstan-strict-rules": "dev-master",
+		"slevomat/coding-standard": "~4.0",
+		"consistence/coding-standard": "~2.0",
+		"jakub-onderka/php-parallel-lint": "dev-master",
+		"jakub-onderka/php-console-highlighter": "dev-master"
+	},
+	"minimum-stability": "dev",
+	"config": {
+		"optimize-autoloader": true,
+		"classmap-authoritative": true
+	},
+	"autoload": {
+		"classmap": [
+			"app/"
+		]
+	},
+	"autoload-dev": {
+		"classmap": [
+			"tests"
+		]
+	}
+}
