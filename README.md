@@ -1,0 +1,1 @@
+# phpstan-error-repo
